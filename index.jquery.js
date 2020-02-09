@@ -9,7 +9,6 @@ const colors = {
 }
 const apiBase = 'https://opentdb.com/api.php?amount=1&type=multiple'
 
-
 const showQuestion = () => {
 	$('#app')[0].hidden = false
 	const questions = [...trival.incorrect_answers, trival.correct_answer].sort(() => 0.5 - Math.random())
