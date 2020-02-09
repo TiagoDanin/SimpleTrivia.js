@@ -43,7 +43,7 @@ None
 	<summary><a href="https://ghub.io/xo">xo</a>: JavaScript linter with great defaults</summary>
 	<b>Author</b>: Sindre Sorhus</br>
 	<b>License</b>: MIT</br>
-	<b>Version</b>: ^0.24.0
+	<b>Version</b>: ^0.25.3
 </details>
 
 ## Contributors
@@ -52,4 +52,4 @@ Pull requests and stars are always welcome. For bugs and feature requests, pleas
 
 ## License
 
-[MIT](LICENSE) © [Tiago Danin](https://TiagoDanin.github.io) & Eduardo Mouta
+[MIT](LICENSE) © [Tiago Danin](https://TiagoDanin.github.io)
