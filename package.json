@@ -1,24 +1,59 @@
 {
-    "name": "simpletriviajs",
-    "main": "index.js",
-    "version": "0.0.1",
-    "author": {
-        "name": "Tiago Danin",
-        "email": "TiagoDanin@outlook.com",
-        "url": "https://TiagoDanin.github.io"
-    },
-    "license": "MIT",
-    "private": false,
-    "github": {
-        "name": "SimpleTrivia.js",
-        "owner": "TiagoDanin"
-    },
-    "features": [
-        "Version with jQuery",
-        "Fun Game :)"
-    ],
-    "usage": {
-        "language": "url",
-        "content": "https://tiagodanin.github.io/SimpleTrivia.js/"
-    }
+	"name": "simpletriviajs",
+	"main": "index.js",
+	"preferGlobal": false,
+	"version": "0.0.1",
+	"description": "Trival Game Web using Open Trivia DB API",
+	"author": {
+		"email": "TiagoDanin@outlook.com",
+		"name": "Tiago Danin",
+		"url": "https://TiagoDanin.github.io"
+	},
+	"license": "MIT",
+	"keywords": [
+		"api",
+		"example",
+		"game",
+		"game-web",
+		"ifpa",
+		"questions",
+		"trival"
+	],
+	"scripts": {
+		"start": "node index.js",
+		"test": "xo"
+	},
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TiagoDanin/SimpleTrivia.js.git"
+	},
+	"homepage": "https://TiagoDanin.github.io/SimpleTrivia.js",
+	"bugs": {
+		"url": "https://github.com/TiagoDanin/SimpleTrivia.js/issues"
+	},
+	"github": {
+		"name": "SimpleTrivia.js",
+		"owner": "TiagoDanin"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"index.js",
+		"package.json"
+	],
+	"devDependencies": {
+		"xo": "^0.24.0"
+	},
+	"xo": {
+		"semicolon": false
+	},
+	"features": [
+		"Version with jQuery",
+		"Fun Game :)"
+	],
+	"usage": {
+		"language": "url",
+		"content": "https://tiagodanin.github.io/SimpleTrivia.js/"
+	}
 }
