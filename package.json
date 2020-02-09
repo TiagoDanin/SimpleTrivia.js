@@ -1,0 +1,24 @@
+{
+    "name": "simpletriviajs",
+    "main": "index.js",
+    "version": "0.0.1",
+    "author": {
+        "name": "Tiago Danin",
+        "email": "TiagoDanin@outlook.com",
+        "url": "https://TiagoDanin.github.io"
+    },
+    "license": "MIT",
+    "private": false,
+    "github": {
+        "name": "SimpleTrivia.js",
+        "owner": "TiagoDanin"
+    },
+    "features": [
+        "Version with jQuery",
+        "Fun Game :)"
+    ],
+    "usage": {
+        "language": "url",
+        "content": "https://tiagodanin.github.io/SimpleTrivia.js/"
+    }
+}
