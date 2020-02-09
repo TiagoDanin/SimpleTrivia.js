@@ -1,0 +1,94 @@
+<html>
+
+<head>
+	<title>{title}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="{description}.">
+	<meta name="keywords"
+		content="tiago, danin, tiagodanin, tiagoedge, ifpa, belem, pa, eduardomouta, eduardo, mouta, {title}">
+	<meta name="author" content="Tiago Danin and Eduardo mouta">
+
+	<link rel="shortcut icon" href="https://tiagodanin.github.io/images/favicon.ico">
+	<link rel="stylesheet" href="https://tiagodanin.github.io/uikit-3.0.0-beta.40/css/uikit.min.css">
+	<link rel="stylesheet" href="https://tiagodanin.github.io/css/theme.css">
+	<link rel="stylesheet" href="https://tiagodanin.github.io/css/reset.css">
+	<link rel="stylesheet" href="https://tiagodanin.github.io/css/colors.css">
+	<link rel="stylesheet" href="https://tiagodanin.github.io/css/style_time.css">
+	<link rel="stylesheet" href="https://tiagodanin.github.io/css/themify-icons.css">
+	<script src="https://tiagodanin.github.io/uikit-3.0.0-beta.40/js/uikit.min.js"></script>
+	<script src="https://tiagodanin.github.io/uikit-3.0.0-beta.40/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+	<nav class="my-topbar uk-navbar uk-background-primary">
+		<div class="uk-navbar-left">
+			<a href="https://tiagodanin.github.io" class="uk-navbar-item uk-logo">
+				<img src="https://tiagodanin.github.io/images/github.png" class="my-photo uk-margin-small-right">
+				<label class="uk-visible@s">{title}</label>
+			</a>
+		</div>
+		<!--Menu desktop-->
+		<div class="uk-navbar-right">
+			<ul class="uk-navbar-nav uk-visible@s">
+				<li class=""><a href="https://github.com/{full_name}">Source Code - GitHub <br> <i
+							class="ti-github"></i></a></li>
+				{links}
+			</ul>
+			<button class="uk-hidden@s uk-button uk-margin-small-right" type="button"
+				uk-toggle="target: #offcanvas-nav-primary" uk-icon="more-vertical">Menu</button>
+		</div>
+	</nav>
+
+	<div class="uk-card uk-card-body uk-card-primary">
+		<h3 class="uk-card-title">About</h3>
+		<div class="uk-panel">
+			<p>{description}.</p>
+		</div>
+	</div>
+	<hr class="uk-divider-icon">
+
+
+	<div class="uk-container">
+		{content_html}
+
+		<hr class="uk-margin-top-remove uk-divider-icon">
+	</div>
+	<br>
+	<br>
+
+
+	<footer>
+		<div
+			class="uk-card uk-card-secondary uk-card-body uk-panel-space uk-padding-remove-left uk-padding-remove-right">
+			<hr class="uk-margin-top-remove">
+			<p class="uk-align-center">
+				<small>
+					<span uk-icon="code"></span> with <span uk-icon="heart"></span> by <a
+						href="https://github.com/TiagoDanin">Tiago Danin</a> and Eduardo Mouta.
+					<br>Built with <a href="https://jus.js.org" target="_blank">Jus</a> and <a
+						href="https://getuikit.com" target="_blank">UiKit</a> and <a href="https://github.com/CuboHub"
+						target="_blank">CuboHub</a>
+					<br>Hosted in <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+				</small>
+			</p>
+		</div>
+	</footer>
+
+	<!--Menu modbile-->
+	<div class="uk-offcanvas-content">
+		<div id="offcanvas-nav-primary" uk-offcanvas="overlay: false">
+			<div class="uk-offcanvas-bar uk-flex uk-flex-column">
+				<ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+					<li class=""><a href="https://github.com/{full_name}">Source Code - GitHub<i
+								class="ti-github"></i></a></li>
+					{links}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://tiagodanin.github.io/js/jquery-1.10.2.min.js"></script>
+</body>
+
+</html>
