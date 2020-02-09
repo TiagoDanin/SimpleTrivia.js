@@ -2,7 +2,7 @@
 	"name": "simpletriviajs",
 	"main": "index.js",
 	"preferGlobal": false,
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Trival Game Web using Open Trivia DB API",
 	"author": {
 		"email": "TiagoDanin@outlook.com",
