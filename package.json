@@ -43,7 +43,7 @@
 		"package.json"
 	],
 	"devDependencies": {
-		"xo": "^0.28.3"
+		"xo": "^0.30.0"
 	},
 	"xo": {
 		"semicolon": false
